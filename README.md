@@ -12,9 +12,9 @@ Repositório com as atividades práticas desenvolvidas no curso PROA.
 
 | Matéria | Pasta | Descrição |
 |---|---|---|
-| 🧠 Lógica de Programação | [`01-html-css`](./01-html-css/) | Exercícios de algoritmos e lógica |
-| 🎨 HTML e CSS | [`02-javascript`](./02-javascript/) | Páginas e estilizações web |
-| ⚙️ JavaScript | [`03-logica-de-programacao`](./03-logica-de-programacao/) | Scripts e interatividade |
+| 🧠 HTML e CSS | [`01-html-css`](./01-html-css/) | Exercícios de algoritmos e lógica |
+| 🎨 JavaScript | [`02-javascript`](./02-javascript/) | Páginas e estilizações web |
+| ⚙️ Lógica de Programação | [`03-logica-de-programacao`](./03-logica-de-programacao/) | Scripts e interatividade |
 
 ---
 
