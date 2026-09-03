@@ -39,12 +39,6 @@ Repositório com as atividades práticas desenvolvidas no curso PROA.
 
 ---
 
-## 🚀 Como usar este repositório
-
-```bash
-git clone https://github.com/seu-usuario/AtividadesPROA.git
-```
-
----
+## ℹ️ Sobre
 
 *Repositório atualizado conforme o andamento do curso.*
