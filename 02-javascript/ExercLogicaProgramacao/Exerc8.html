@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 8</title>
+</head>
+<body>
+    <h1>8- Escreva um programa que leia dois números inteiros e troque os seus valores, ou seja, 
+        o primeiro deve ficar com o valor do segundo e vice-versa.</h1>
+    <script>
+        let num1 = parseInt(prompt("Digite o primeiro numero: "))
+        let num2 = parseInt(prompt("Digite o segundo numero: "))
+
+        let ajudante = num1
+        num1 = num2
+        num2 = ajudante
+
+        document.write("Numero1: "+ num1)
+        document.write("Numero2: "+ num2)
+    </script>
+</body>
+</html>
