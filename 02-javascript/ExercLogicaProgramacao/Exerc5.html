@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 5</title>
+</head>
+<body>
+    <script>
+        let preco = parseFloat(prompt("Digite o preço do produto: "))
+        let quantidade = parseInt(prompt("Digite a quantidade do produto: "))
+
+        let total = preco * quantidade
+        total = total.toFixed(2)
+
+        if (quantidade > 10) {
+            total = total - (total * 0.10)
+        }
+
+        document.write("O valor total a pagar é: "+ total)
+    </script>
+</body>
+</html>
