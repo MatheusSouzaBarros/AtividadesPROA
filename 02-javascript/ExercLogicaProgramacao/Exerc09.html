@@ -9,17 +9,17 @@
     <h1>9- Crie um programa que leia o valor do depósito mensal em uma poupança 
         e a taxa de juros mensal, e calcule o montante após 12 meses.</h1>
     <script>
-        let deposito = parseFloat(prompt("Digite o valor do depósito mensal: "));
-        let taxa = parseFloat(prompt("Digite a taxa de juros mensal (%): "));
+        let deposito = parseFloat(prompt("Digite o valor do depósito mensal: "))
+        let taxa = parseFloat(prompt("Digite a taxa de juros mensal (%): "))
 
-        let montante = 0;
+        let montante = 0
 
         for (let mes = 1; mes <= 12; mes++) {
-            montante += deposito;
-            montante += montante * (taxa / 100);
+            montante += deposito
+            montante += montante * (taxa / 100)
         }
 
-        document.write("O montante após 12 meses será: R$ " + montante.toFixed(2));
+        document.write("O montante após 12 meses será: R$ " + montante.toFixed(2))
     </script>
 </body>
 </html>
