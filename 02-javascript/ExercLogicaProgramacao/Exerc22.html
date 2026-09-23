@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 22</title>
+</head>
+<body>
+    <h1>22- Faça um programa que receba o salário de um funcionário e exiba o valor do seu bônus. Se o salário for maior que R$ 2000, o bônus é de 10%, 
+        caso contrário, é de 5%.</h1>
+    <script>
+        let salario = pasrseFloat(prompt("Digite o salário do funcionário:"))
+
+        if (salario > 2000) {
+            let bonus = salario * 0.10
+            alert("O bônus do funcionário é: R$ " + bonus.toFixed(2))
+        } else {
+            let bonus = salario * 0.05
+            alert("O bônus do funcionário é: R$ " + bonus.toFixed(2))
+        }
+    </script>
+</body>
+</html>

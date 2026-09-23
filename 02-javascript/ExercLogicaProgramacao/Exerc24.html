@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 24</title>
+</head>
+<body>
+    <h1>24- Crie um programa que leia três números inteiros e exiba-os em ordem crescente.</h1>
+    <script>
+        let num1 = parseInt(prompt("Digite o primeiro número:"))
+        let num2 = parseInt(prompt("Digite o segundo número:"))
+        let num3 = parseInt(prompt("Digite o terceiro número:"))
+
+        let resultado
+
+        if (num1 <= num2 && num1 <= num3) {
+            if (num2 <= num3) {
+                    resultado = num1 + ", " + num2 + ", " + num3
+            } else {
+                    resultado = num1 + ", " + num3 + ", " + num2
+            }
+        } else if (num2 <= num1 && num2 <= num3) {
+                if (num1 <= num3) {
+                    resultado = num2 + ", " + num1 + ", " + num3
+            } else {
+                    resultado = num2 + ", " + num3 + ", " + num1
+            }
+        } else {
+                if (num1 <= num2) {
+                    resultado = num3 + ", " + num1 + ", " + num2
+            } else {
+                    resultado = num3 + ", " + num2 + ", " + num1
+            }
+        }
+
+        alert("Números em ordem crescente: " + resultado)
+    </script>
+</body>
+</html>
