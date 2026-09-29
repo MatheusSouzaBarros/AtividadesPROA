@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 31</title>
+</head>
+<body>
+    <h1>31- Faça um programa que leia o valor do salário-mínimo e o salário de um funcionário, e exiba quantos salários-mínimos ele recebe.</h1>
+    <script>
+        let salarioMinimo = parseFloat(prompt("Digite o valor do salário-mínimo:"))
+        let salario = parseFloat(prompt("Digite o salário do funcionário:"))
+
+        let qtd = salario / salarioMinimo
+
+        document.write("O funcionário recebe " + qtd.toFixed(1) + " salários-mínimos")
+</script>
+</body>
+</html>
+
