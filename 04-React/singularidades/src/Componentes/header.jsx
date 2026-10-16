@@ -5,10 +5,12 @@ function Header () {
         <header className={Styles.header}>
             <h2 className={Styles.logo}>+</h2>
 
-            <nav className={Styles.nav}>
+            <nav className={Styles.menu}>
                 <a href="#">Home</a>
-                <a href="#">Sobre</a>
-                <a href="#">Contato</a>
+                <a href="#">Racismo</a>
+                <a href="#">Transfobia</a>
+                <a href="#">Homofobia</a>
+                <a href="#">Misoginia</a>
             </nav>
         </header>
     )
