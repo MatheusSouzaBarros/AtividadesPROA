@@ -10,35 +10,24 @@ Repositório com as atividades práticas desenvolvidas no curso PROA.
 
 ## 📂 Estrutura do repositório
 
-| Matéria | Pasta | Descrição |
+| **Matéria** | **Pasta** | **Descrição** |
 |---|---|---|
 | 🎨 HTML e CSS | [`01-html-css`](./01-html-css/) | Páginas e estilizações web |
 | 🧠 JavaScript | [`02-javascript`](./02-javascript/) | Scripts e interatividade |
 | ⚙️ Lógica de Programação | [`03-logica-de-programacao`](./03-logica-de-programacao/) | Exercícios de algoritmos e lógica |
+| ☕ Java | [`04-java`](./04-java/) | Exercícios e projetos em Java |
 
 ---
 
-## 🧠 Lógica de Programação
+## 📚 Conteúdos por matéria
 
-| Atividade | Descrição | Status |
-|---|---|---|
-| Atividade 1 | Estruturas de repetição | ✅ Concluído |
-| Atividade 2 | Vetores e matrizes | 🔄 Em andamento |
-
-## 🎨 HTML e CSS
-
-| Atividade | Descrição | Status |
-|---|---|---|
-| Atividade 1 | Estrutura básica de página | ✅ Concluído |
-
-## ⚙️ JavaScript
-
-| Atividade | Descrição | Status |
-|---|---|---|
-| Atividade 1 | Manipulação do DOM | ✅ Concluído |
+- 🧠 **Lógica de Programação:** Algoritmos, estruturas de repetição, vetores e matrizes.
+- 🎨 **HTML e CSS:** Estruturação e estilização de páginas web.
+- ⚙️ **JavaScript:** Lógica, manipulação do DOM e interatividade.
+- ☕ **Java:** Fundamentos da linguagem, lógica de programação e orientação a objetos.
 
 ---
 
 ## ℹ️ Sobre
 
-*Repositório atualizado conforme o andamento do curso.*
+*As atividades e projetos estão organizados em suas respectivas pastas e são atualizados conforme o andamento do curso.*
